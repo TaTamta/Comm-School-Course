@@ -10,17 +10,20 @@
   --white-secondary: #e5e5e5;
 }
 
-.header-container {
+.top-container {
   background-image: url(./src/images/header-background.png);
   background-size: cover;
   width: 100%;
   height: 600px;
 }
 
+.top-container-content {
+  padding: 36px 100px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 36px 100px;
 }
 
 .logo {
@@ -45,4 +48,23 @@ i {
 .menu-list i {
   padding-left: 25px;
   border-left: solid 1px var(--white-primary);
+}
+
+.top-content {
+  margin-top: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.date,
+.top-description {
+  color: var(--white-secondary);
+  margin-bottom: 15px;
+  width: 500px;
+}
+
+.top-title {
+  color: var(--white-primary);
+  margin-bottom: 15px;
+  width: 600px;
 }

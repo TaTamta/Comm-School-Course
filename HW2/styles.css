@@ -62,6 +62,12 @@ a {
   padding: 16px 20px;
 }
 
+.nav-contact-item:hover {
+  background-color: var(--color-primary);
+  color: white;
+
+}
+
 .banner {
   padding: 100px 0;
   background-color: var(--color-bg-shade);
@@ -332,7 +338,7 @@ textarea::placeholder {
     flex-direction: column;
     gap: 8px;
   }
-  
+
   .container {
     margin: 0 24px;
   }

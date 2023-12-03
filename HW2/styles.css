@@ -65,7 +65,6 @@ a {
 .nav-contact-item:hover {
   background-color: var(--color-primary);
   color: white;
-
 }
 
 .banner {
@@ -113,6 +112,13 @@ a {
   background-color: var(--color-primary);
   margin-top: 32px;
   color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  height: 50px;
+  width: 142px;
 }
 
 .button a {
@@ -139,10 +145,12 @@ a {
   margin-top: 40px;
 }
 
-.articles-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+.article-block {
+  cursor: pointer;
+}
+
+.article-block:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .article-pic {
@@ -224,6 +232,11 @@ input {
   border: 1px solid var(--color-primary);
   border-radius: 8px;
   padding: 8px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: 2px solid var(--color-primary);
 }
 
 .checkbox {

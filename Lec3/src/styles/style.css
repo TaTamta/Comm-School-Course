@@ -516,7 +516,7 @@ img {
 .bottom-column {
   display: flex;
   flex-direction: column;
-  margin-top: 400px;
+  margin-top: 350px;
   gap: 32px;
   align-items: center;
 }

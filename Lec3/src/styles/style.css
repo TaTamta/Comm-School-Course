@@ -396,7 +396,7 @@ img {
 }
 
 .special-text {
-  font-size: 274px;
+  font-size: 19vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -553,4 +553,22 @@ img {
 
 footer {
   border-top: 1px solid #E5E5E5;
+}
+
+
+.challenge-text-container {
+  height: 400px;
+  background: linear-gradient(to right, white 50%, rgb(3, 54, 3)50%);
+  display: flex;
+  align-items: center;
+  padding: 133px;
+}
+
+.challenge-text {
+  font-size: 50px;
+  font-weight: bold;
+  background: linear-gradient(to right, rgb(3, 54, 3) 50%, white 50%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "my-font";
 }

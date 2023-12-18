@@ -39,6 +39,8 @@ body {
   background-repeat: no-repeat;
   background-size: 50%;
   font-family: 'my-font', sans-serif;
+  cursor: url('../images/mouse.svg'), url('../images/mouse.svg'),
+    url('../images/mouse.svg'), auto;
 }
 .container {
   width: 1280px;
@@ -538,11 +540,27 @@ img {
   line-height: normal;
 }
 
-.medium {
-  font-family: "my-font-medium";
+.services-list:hover::before {
+  color: black;
+  content: '';
 }
 
-.footer-items{
+.services-list:hover {
+  color: #ef4242;
+}
+
+.services-list:hover::after {
+  color: #ef4242;
+  content: url('../images/arrow45.png');
+  width: 64px;
+  margin-right: 16px;
+}
+
+.medium {
+  font-family: 'my-font-medium';
+}
+
+.footer-items {
   padding: 26px 0;
   font-family: 'my-font-light';
 }
@@ -552,13 +570,12 @@ img {
 }
 
 footer {
-  border-top: 1px solid #E5E5E5;
+  border-top: 1px solid #e5e5e5;
 }
-
 
 .challenge-text-container {
   height: 400px;
-  background: linear-gradient(to right, white 50%, rgb(3, 54, 3)50%);
+  background: linear-gradient(to right, white 50%, rgb(3, 54, 3) 50%);
   display: flex;
   align-items: center;
   padding: 133px;
@@ -570,5 +587,5 @@ footer {
   background: linear-gradient(to right, rgb(3, 54, 3) 50%, white 50%);
   -webkit-background-clip: text;
   color: transparent;
-  font-family: "my-font";
+  font-family: 'my-font';
 }
